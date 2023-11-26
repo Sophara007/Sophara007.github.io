@@ -1,0 +1,153 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    color: seashell;
+    background-color: black;
+    z-index: 1000;
+    top:0px;
+  
+}
+body{
+    padding: 0;
+    margin: 0;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: black;
+
+}
+
+
+a {
+    color: seashell;
+    margin: 0 10px;
+    font-family: helvetica;
+    text-decoration: underline;
+}
+h4 {
+    margin-top: 10px;
+}
+h5 {
+    margin: 15px 15px ;
+}
+h5, p {
+color:seashell;
+font-size: 16px;
+
+
+}
+.copyright  {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    margin-bottom: 15px;
+    color: seashell;
+}
+h3 {
+    margin-bottom: 15px;
+}
+footer {
+    display: flex;
+    text-align: left;
+    margin-left: 20px;
+}
+.logo {
+   
+    margin-left: 10px;
+    height: 50px;
+    width: auto;
+}
+.title-container {
+text-align: center;
+color: seashell;
+background-color: black;
+display: flex;
+flex-direction: column;
+width: 1200px;
+}
+.montly-tea {
+    color: seashell;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 1000px;
+    
+}
+.main-area {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    margin: 69px 50px 0;
+    background-image: url("/images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 700px;
+    height: 700px;
+}
+.tea-variety {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+}
+img {
+    margin:15px 15px;
+    width: 300px;
+    height: 200px;
+}
+.location-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 20px;
+    color: seashell;
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+  
+} 
+.location {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.location-list {
+    display: flex;
+    justify-content: center;
+}
+li, ul {
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin-bottom: 30px;
+}
+.location {
+   background-image: url("images/img-locations-background.jpg");
+   height: 500px;
+   margin: 30px 50px 0;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
